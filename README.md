@@ -1,6 +1,6 @@
 ## django_bench_runner - Locate slow tests
 
-[![Build Status](https://secure.travis-ci.org/scuml/django_bench_runner.png?branch=master)](http://travis-ci.org/scuml/django_bench_runner)
+[![Build Status](https://secure.travis-ci.org/scuml/django-bench-runner.png?branch=master)](http://travis-ci.org/scuml/django-bench-runner)
 [![Downloads](https://img.shields.io/pypi/dw/django-bench-runner.svg)](https://pypi.python.org/pypi/django-bench-runner)
 
 Django Bench Runner is a drop-in enhancement of the default django test runner that times how long it takes to run individual tests.  It helps detect tests that might need optimization.
@@ -19,7 +19,7 @@ Add the `-b` (or `--benchmark`) flag when running your tests.
 
 ### Colorization
 
-Tests that run under .5 seconds are colored green.  The resulting tests are divvied into 3 groups.  The fastest third (yellow), the middle third (magenta), and the slowest third (red).  [Red tests do not mean the tests are nessecarily bad or in critical need of a speedup](http://www.obeythetestinggoat.com/fast-tests-useless-hot-lava-be-damned.html).  It is just a graphical way to identify the various times of the tests.
+Tests that run under .5 seconds are colored green.  The resulting tests are divvied into 3 groups.  The fastest third (yellow), the middle third (magenta), and the slowest third (red).  [Red tests do not mean the tests are necessarily bad or in critical need of a speedup](http://www.obeythetestinggoat.com/fast-tests-useless-hot-lava-be-damned.html).  It is just a graphical way to identify the various times of the tests.
 
 ### Example Output
 
