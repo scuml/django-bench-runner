@@ -1,7 +1,7 @@
 ## django_bench_runner - Locate slow tests
 
-[![Build Status](https://secure.travis-ci.org/scuml/django_bench_runner.png?branch=master)](http://travis-ci.org/scuml/benchit)
-[![Downloads](https://img.shields.io/pypi/dw/django-bench-runner.svg)](https://pypi.python.org/pypi/bench-it)
+[![Build Status](https://secure.travis-ci.org/scuml/django_bench_runner.png?branch=master)](http://travis-ci.org/scuml/django_bench_runner)
+[![Downloads](https://img.shields.io/pypi/dw/django-bench-runner.svg)](https://pypi.python.org/pypi/django-bench-runner)
 
 Django Bench Runner is a drop-in enhancement of the default django test runner that times how long it takes to run individual tests.  It helps detect tests that might need optimization.
 
