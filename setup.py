@@ -12,11 +12,8 @@ if 'publish' in sys.argv:
         os.system('python setup.py sdist bdist_wheel upload')
     sys.exit()
 
-try:
-    import pypandoc
-    description = pypandoc.convert('README.md', 'rst')
-except (IOError, ImportError):
-    description = open('README.md').read()
+import pypandoc
+description = pypandoc.convert('README.md', 'rst')
 
 
 with open('LICENSE') as f:
@@ -24,7 +21,7 @@ with open('LICENSE') as f:
 
 setup(
     name='django_bench_runner',
-    version='0.1',
+    version='0.1.1',
     description='Locate slow tests in your django project.',
     url='http://github.com/scuml/django_bench_runner',
     packages=find_packages(where="src"),
